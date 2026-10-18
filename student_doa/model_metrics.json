@@ -1,0 +1,73 @@
+{
+  "model": "RandomForestClassifier",
+  "target": "Target",
+  "classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "accuracy": 0.7604519774011299,
+  "macro_f1": 0.704613522990207,
+  "weighted_f1": 0.7584090103403843,
+  "dropout_precision": 0.8132295719844358,
+  "dropout_recall": 0.7359154929577465,
+  "confusion_matrix_labels": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "confusion_matrix": [
+    [
+      209,
+      38,
+      37
+    ],
+    [
+      30,
+      78,
+      51
+    ],
+    [
+      18,
+      38,
+      386
+    ]
+  ],
+  "classification_report": {
+    "Dropout": {
+      "precision": 0.8132295719844358,
+      "recall": 0.7359154929577465,
+      "f1-score": 0.7726432532347505,
+      "support": 284.0
+    },
+    "Enrolled": {
+      "precision": 0.5064935064935064,
+      "recall": 0.49056603773584906,
+      "f1-score": 0.4984025559105431,
+      "support": 159.0
+    },
+    "Graduate": {
+      "precision": 0.8143459915611815,
+      "recall": 0.8733031674208145,
+      "f1-score": 0.8427947598253275,
+      "support": 442.0
+    },
+    "accuracy": 0.7604519774011299,
+    "macro avg": {
+      "precision": 0.7113563566797079,
+      "recall": 0.6999282327048033,
+      "f1-score": 0.704613522990207,
+      "support": 885.0
+    },
+    "weighted avg": {
+      "precision": 0.7586786375662027,
+      "recall": 0.7604519774011299,
+      "f1-score": 0.7584090103403843,
+      "support": 885.0
+    }
+  },
+  "baseline_majority_accuracy": 0.4994350282485876,
+  "test_rows": 885,
+  "random_state": 42,
+  "note": "Held-out split metrics; not a guarantee of future performance or proof of causality."
+}

@@ -1,0 +1,50 @@
+{
+  "source_file": "student_doa_dataset.csv",
+  "rows": 4424,
+  "columns_including_target": 36,
+  "feature_count_before_encoding": 34,
+  "target_column": "Target",
+  "target_classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "target_counts": {
+    "Graduate": 2209,
+    "Dropout": 1421,
+    "Enrolled": 794
+  },
+  "target_percentages": {
+    "Graduate": 49.932,
+    "Dropout": 32.12,
+    "Enrolled": 17.948
+  },
+  "missing_cells": 0,
+  "exact_duplicate_rows": 0,
+  "columns_with_missing_values": {},
+  "train_rows": 3539,
+  "test_rows": 885,
+  "split_random_state": 42,
+  "test_size": 0.2,
+  "categorical_code_columns": [
+    "Marital status",
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "International"
+  ],
+  "note": "Target is a three-class student outcome. Academic results from both semesters are present; models using them are not suitable to claim early-enrollment prediction. Associations do not establish causation."
+}
