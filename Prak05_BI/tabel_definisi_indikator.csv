@@ -1,0 +1,5 @@
+﻿Indikator,Rumus,Cakupan,Catatan interpretasi
+Total penjualan,Σ (transaction_qty × unit_price),Seluruh periode dan gerai yang dipilih,Nilai penjualan; mata uang tidak dinyatakan sumber
+Transaksi tercatat,Jumlah transaction_id unik,Periode dan gerai yang dipilih,Bukan pelanggan unik; grain sumber per produk/transaksi
+Rata-rata nilai transaksi,Total penjualan ÷ transaksi tercatat,Cakupan sama dengan total penjualan,Tidak boleh dirata-ratakan dari rata-rata bulanan/gerai
+Pertumbuhan bulan terakhir,(Penjualan bulan terakhir − penjualan bulan sebelumnya) ÷ penjualan bulan sebelumnya × 100%,"Juni dibanding Mei, gerai yang sama",Belum tersedia jika pembanding nol atau tidak ada
